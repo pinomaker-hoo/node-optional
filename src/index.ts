@@ -26,10 +26,11 @@ class Optional<T> {
 
   orElseThrow<E extends Error>(
     exception: new (...args: any[]) => E,
-    message: string
+    message: string,
+    errorCode?: number | string
   ): T {
     if (this.value === null) {
-      throw new exception(message);
+      throw new exception(message, errorCode);
     }
     return this.value;
   }
