@@ -1,6 +1,8 @@
-# Optional Class
+# node-optional
 
 The `Optional` class is a utility that helps you handle values that may or may not be present. It provides a safer alternative to `null` checks and improves code readability.
+
+NPM : https://www.npmjs.com/package/node-optional
 
 ## Features
 
